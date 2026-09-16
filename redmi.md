@@ -54,9 +54,12 @@ C -->|No| E[Eror]
 
 ```
 
-## Diagrama de flujo de estado liquido y gaseoso
-```mermaid
+## Mermaid 
+```Mermaid
 flowchart TD
-A[Estados de la Materia] --> B[Solido]
-A --> B [Liquido]
-B --> C [Gaseoso]   
+A(Tecsup) --> B[Breve concepto]
+B --> C[Informatica]
+B --> D[Diseño]
+B --> E[Administracion]
+B --> F[Mecanica]
+```

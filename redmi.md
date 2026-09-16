@@ -1,10 +1,3 @@
-# TABLA DE CONTENIDO
-- [Titulo](#titulo-importante)
-- [Hipervinculos](#creando-hipervinculos)
-- [Colocar imagenes](#colocar-imagenes)
-- [Funciones](#funciones)
-- [Tablas](#creando-tablas)
-- []
 # Titulo importante
 Me encuentro aprendiendo *Markdown* en las clases dek profesor Luis Pallin ...
 ## Subtitulo 01
@@ -32,17 +25,16 @@ Podemos reconocer diferentes formatos textos usando ~~Markdown~~.
 | Java |James Gosling |
 | PHP  |Rasmus Lerdorf |
 | Python |Guido van Rossum|
-| C++ |Bjarne Stroustrup|
 ## Codigo
 ```css
 body{
-    background:"read";
+    background:"red";
 }
 ```
 ```java
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        System.out.println("Hola mundo Java");
     }
 }
 ```
@@ -52,3 +44,19 @@ let nombre = "Pablo";
 ```Python
 print ("Hola mundo")
 ```
+## Mermaid Diagramas
+```Mermaid
+flowchart TD
+A(usuario)--> B[Iniciar Sección]
+B --> C{Credenciales Validads}
+C -->|Si| D[Acceder al Sistema]
+C -->|No| E[Eror]
+
+```
+
+## Diagrama de flujo de estado liquido y gaseoso
+```mermaid
+flowchart TD
+A[Estados de la Materia] --> B[Solido]
+A --> B [Liquido]
+B --> C [Gaseoso]   

@@ -45,17 +45,16 @@ let nombre = "Pablo";
 print ("Hola mundo")
 ```
 ## Mermaid Diagramas
-```Mermaid
+```mermaid
 flowchart TD
 A(usuario)--> B[Iniciar Sección]
 B --> C{Credenciales Validads}
 C -->|Si| D[Acceder al Sistema]
 C -->|No| E[Eror]
-
 ```
 
 ## Mermaid 
-```Mermaid
+```mermaid
 flowchart TD
 A(Tecsup) --> B[Sistema de empresa]
 B --> C[Informatica]

@@ -57,7 +57,7 @@ C -->|No| E[Eror]
 ## Mermaid 
 ```Mermaid
 flowchart TD
-A(Tecsup) --> B[Breve concepto]
+A(Tecsup) --> B[Sistema de empresa]
 B --> C[Informatica]
 B --> D[Diseño]
 B --> E[Administracion]
